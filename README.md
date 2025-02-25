@@ -1,2 +1,0 @@
-# Bank Customer Attrition Insights
- 
