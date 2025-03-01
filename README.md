@@ -1,4 +1,4 @@
-**Bank Customer Attrition Insights Analsis**
+**Bank Customer Attrition Insights Analysis**
 
 **Main Objective**
 
