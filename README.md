@@ -4,7 +4,7 @@
 
 To use different machine learning techniques to predict and analyze bank customer churn. 
 
-By identifying key factors contributing to customer attrition, banks can develop targeted retention strategies and make further tangible stratigies.
+By identifying key factors contributing to customer attrition, banks can develop targeted retention strategies and make further tangible stratigies. Therefore, the focus on the model is to predict the user that leave the bank. The main masure therefore is the recall score
 
 **Dataset**
 
@@ -18,16 +18,18 @@ Link to the dataset: https://www.kaggle.com/datasets/marusagar/bank-customer-att
 2. Data Insights & EDA
 3. Data Preparation
 4. Prediction Modeling
-5. Causal Infernece 
-6. Model Performance & Results
-7. Conclusion
+   - Base models: Random Forest, XGboosting, Support Vector Machine, Logistic regression (Baseline to compare)
+   - Meta Model- Stack Model with Random Forest, XGboosting and Support Vector Machine
+6. Causal Infernece 
+7. Model Performance & Results
+8. Conclusion
 
 **Project Conclusion**
+
+The Meta model with Stacking model increase the recall in 4% from the base models for the interest variable of attrition
 
 High-balance customers are more financially aware and expect premium service—they leave when finding better options.
 
 Older customers tend to stay due to bank loyalty or to avoid time-consuming paperwork.
 
 Regional differences significantly impact churn, suggesting region-specific strategies are needed rather than one-size-fits-all approaches.
-
-Model tuning: Modifying classification threshold improved recall, ensuring more potential churners are identified, though this increases false positives.
