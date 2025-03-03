@@ -22,7 +22,6 @@ Link to the dataset: https://www.kaggle.com/datasets/marusagar/bank-customer-att
    - Meta Model- Stack Model with Random Forest, XGboosting and Support Vector Machine
 6. Causal Infernece 
 7. Model Performance & Results
-8. Conclusion
 
 **Project Conclusion**
 
